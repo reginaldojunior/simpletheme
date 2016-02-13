@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Montserrat"
+}
+
+.background {
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 100% 100%;
+	/* background-size: auto; */
+	background-size: cover;
+	background-color: #384a5e;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+	display: table-caption;
+	position: absolute;
+	text-align: center;
+}
+
+h1 {
+	margin: 150px auto;
+}
+
+h1.contact {
+	margin: 60px auto;
+}
+
+h1.jobs {
+	margin: 40px auto;
+}
+
+input[type="text"] {
+	padding: 30px;
+	opacity: 0.7;
+	border: solid 2px #000;
+	font-size: 20px;
+	text-align: center;
+}
+
+textarea {
+	padding: 30px !important;
+	opacity: 0.7;
+	border: solid 2px #000 !important;
+	font-size: 20px !important;
+	text-align: center;
+	height: 50px;
+	width: 789px;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.contact {
+	margin-top: 40px !important;
+}
+
+.btn {
+	margin-top: 100px;
+	padding: 10px;
+	width: 35%;
+	height: 50px;
+}
+
+@media only screen and (max-width: 550px) {
+	h1 {
+	    margin: 80px auto;
+	}
+	.btn {
+		width: 50%;
+	}
+}
